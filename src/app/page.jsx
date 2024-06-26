@@ -270,8 +270,8 @@ export default function Home() {
       {/* End Blog Section */}
 
       {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
-      <PartnerSlider />
+      {/* <Spacing lg="125" md="70" /> */}
+      {/* <PartnerSlider /> */}
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
@@ -287,7 +287,7 @@ export default function Home() {
         <Cta
           title="We are Hiring"
           btnText="Apply now"
-          btnLink="/case-study/caseStudyId"
+          btnLink="/case-study"
           bgSrc="/images/cta_bg.jpeg"
         />
       </Div>
