@@ -13,7 +13,9 @@ export default function ContactInfoWidget({withIcon, title}) {
         <li>
 
           {withIcon?<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>:''}
-           <a href="tel:+919384845858">+91 9384845858</a>
+           <a href="tel:+919384845858">+91 9384845858,</a>
+           <a href="tel:04446884155">{""}04446884155</a>
+           
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}

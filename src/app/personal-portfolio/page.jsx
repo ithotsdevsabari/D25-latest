@@ -93,7 +93,7 @@ const portfolioData = [
     title: 'Colorful Art Work',
     subtitle: 'See Details',
     href: '/portfolioDetailsId',
-    src: '/images/portfolio_4.jpeg',
+    src: '/images/priceVoicelogo.png',
     category: 'ui_ux_design',
   },
   {
