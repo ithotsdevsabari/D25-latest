@@ -32,6 +32,7 @@ function TeamDetailsContent() {
       }
     }
   }, [paramsId]);
+  
 
   return (
     <>

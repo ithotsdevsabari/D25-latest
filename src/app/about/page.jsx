@@ -138,7 +138,7 @@ export default function AboutPage() {
           subtitle="Our Team"
           variant="cs-style1"
         />
-        <Spacing lg="85" md="45" />
+        <Spacing lg="35" md="45" />
         <TeamSlider />
       </Div>
       {/* End Team Section */}
