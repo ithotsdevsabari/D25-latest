@@ -53,7 +53,7 @@ const portfolioData = [
     title: 'Praise Voice',
     subtitle: 'See Details',
     href: '/portfolio',
-    src: '/images/portfolio_1.jpeg',
+    src: '/images/priceVoicelogo.png',
   },
   {
     title: 'Award Function',
