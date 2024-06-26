@@ -1,22 +1,28 @@
-"use client";
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import Spacing from "@/app/ui/Spacing";
-import SocialWidget from "@/app/ui/Widget/SocialWidget";
-import imgUrl from "../../../../public/images/member_details_1.jpeg";
-import SectionHeading from "@/app/ui/SectionHeading";
-import Image from "next/image";
-import { useParams } from "next/navigation";
-import { memberData } from "../../../../utills/memberData";
-import {useEffect} from 'react'
-import useScrollSmooth from "@/app/ui/ScrollSmooth";
+
+
+"use client"
+import { Suspense } from 'react';
+import Cta from '@/app/ui/Cta';
+import Div from '@/app/ui/Div';
+import PageHeading from '../ui/PageHeading';
+import Spacing from '../ui/Spacing';
+import SectionHeading from '../ui/SectionHeading';
+import Image from 'next/image';
+import { useParams } from 'next/navigation';
+import { useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 export default function TeamDetails() {
-  const parameter = useParams();
-  let paramsId = parameter.teamDetailsId;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TeamDetailsContent />
+    </Suspense>
+  );
+}
 
-  // useScrollSmooth(70);
+function TeamDetailsContent() {
+  const searchParams = useSearchParams();
+  const paramsId = searchParams?.get('data');
 
   useEffect(() => {
     if (paramsId) {

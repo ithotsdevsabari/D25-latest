@@ -10,7 +10,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_21.jpeg',
     srcLg: '/images/portfolio_21_lg.jpeg',
     category: 'wedding',
@@ -19,7 +19,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_25.jpeg',
     srcLg: '/images/portfolio_25_lg.jpeg',
     category: 'portrait',
@@ -28,7 +28,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_29.jpeg',
     srcLg: '/images/portfolio_29_lg.jpeg',
     category: 'fashion',
@@ -37,7 +37,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_22.jpeg',
     srcLg: '/images/portfolio_22_lg.jpeg',
     category: 'commercial',
@@ -46,7 +46,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_27.jpeg',
     srcLg: '/images/portfolio_27_lg.jpeg',
     category: 'wedding',
@@ -55,7 +55,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_23.jpeg',
     srcLg: '/images/portfolio_23_lg.jpeg',
     category: 'fashion',
@@ -64,7 +64,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_26.jpeg',
     srcLg: '/images/portfolio_26_lg.jpeg',
     category: 'landscape',
@@ -73,7 +73,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_30.jpeg',
     srcLg: '/images/portfolio_30_lg.jpeg',
     category: 'portrait',
@@ -82,7 +82,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_24.jpeg',
     srcLg: '/images/portfolio_24_lg.jpeg',
     category: 'shortfilm',
@@ -91,7 +91,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_28.jpeg',
     srcLg: '/images/portfolio_28_lg.jpeg',
     category: 'fashion',
@@ -100,7 +100,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_21.jpeg',
     srcLg: '/images/portfolio_21_lg.jpeg',
     category: 'wedding',
@@ -109,7 +109,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_25.jpeg',
     srcLg: '/images/portfolio_25_lg.jpeg',
     category: 'portrait',
@@ -118,7 +118,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_29.jpeg',
     srcLg: '/images/portfolio_29_lg.jpeg',
     category: 'fashion',
@@ -127,7 +127,7 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'View Large',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_22.jpeg',
     srcLg: '/images/portfolio_22_lg.jpeg',
     category: 'commercial',

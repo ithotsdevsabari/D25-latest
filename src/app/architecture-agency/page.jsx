@@ -37,25 +37,25 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_45.jpeg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_46.jpeg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_1.jpeg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/portfolioDetailsId',
     src: '/images/portfolio_47.jpeg',
   },
 ];

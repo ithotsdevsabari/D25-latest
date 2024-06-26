@@ -18,19 +18,19 @@ const showcaseData = [
     introTitle: 'Video Direction (Jan, 2023)',
     title: 'Nature video short',
     videoUrl: '/video/video-3.mp4',
-    href: '/case-study/case-study-details',
+    href: '/case-study',
   },
   {
     introTitle: 'Video Direction (Sep, 2023)',
     title: 'TV commercial ad',
     videoUrl: '/video/video-1.mp4',
-    href: '/case-study/case-study-details',
+    href: '/case-study',
   },
   {
     introTitle: 'Video Direction (Mar, 2023)',
     title: '3D world comes',
     videoUrl: '/video/video-2.mp4',
-    href: '/case-study/case-study-details',
+    href: '/case-study',
   },
 ];
 

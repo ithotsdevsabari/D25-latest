@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // output: 'export',
+    output: 'export',
     trailingSlash: true,
     images: {
       unoptimized: true,
     },
-    basePath: '', // Your subdirectory path
-    assetPrefix: '', // Ensure assets are served correctly
+    // basePath: '', // Your subdirectory path
+    // assetPrefix: '', // Ensure assets are served correctly
   }
   
   module.exports = nextConfig

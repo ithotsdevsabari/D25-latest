@@ -26,7 +26,7 @@ const portfolioData = [
     title: 'Winery eCommerce website design & development',
     subtitle: 'Project 01',
     btnText: 'See Details',
-    btnLink: '/portfolio/portfolio-details',
+    btnLink: '/portfolioDetailsId',
     imageUrl: '/images/portfolio_35.jpeg',
     category: 'Web Development',
   },
@@ -34,7 +34,7 @@ const portfolioData = [
     title: 'Euro corporate agency for healthy environment',
     subtitle: 'Project 02',
     btnText: 'See Details',
-    btnLink: '/portfolio/portfolio-details',
+    btnLink: '/portfolioDetailsId',
     imageUrl: '/images/portfolio_36.jpeg',
     category: 'Branding',
   },
@@ -42,7 +42,7 @@ const portfolioData = [
     title: 'Powerful admin dashboard design',
     subtitle: 'Project 03',
     btnText: 'See Details',
-    btnLink: '/portfolio/portfolio-details',
+    btnLink: '/portfolioDetailsId',
     imageUrl: '/images/portfolio_37.jpeg',
     category: 'UI Design',
   },
@@ -50,7 +50,7 @@ const portfolioData = [
     title: 'Crypto financial trading apps for hedge fund',
     subtitle: 'Project 04',
     btnText: 'See Details',
-    btnLink: '/portfolio/portfolio-details',
+    btnLink: '/portfolioDetailsId',
     imageUrl: '/images/portfolio_38.jpeg',
     category: 'Apps Design',
   },
@@ -114,13 +114,13 @@ export default function CreativePortfolioHome() {
       <CaseStudy
         title="Analysis lead <br /> more efficiently"
         bgUrl="/images/case_study_2.jpeg"
-        href="/case-study/case-study-details"
+        href="/case-study"
         variant="cs-style2"
       />
       <CaseStudy
         title="Ubar food app <br /> case study"
         bgUrl="/images/case_study_1.jpeg"
-        href="/case-study/case-study-details"
+        href="/case-study"
       />
       <Spacing lg="150" md="80" />
       {/* End Case Study Section */}

@@ -14,11 +14,18 @@ export default function Team({memberImage, memberName, memberDesignation, member
           <Div className="cs-member_overlay" />
         </Div>
         <Div className="cs-member_info">
-          <h2 className="cs-member_name"><Link href={`/team/${memberId}`}>{memberName}</Link></h2>
+          <h2 className="cs-member_name"><Link href={`/teamDetailsId?data=${memberId}`}>{memberName}</Link></h2>
           <Div className="cs-member_designation">{memberDesignation}</Div>
         </Div>
 
-        {/* upcoming added this */}
+      
+      </Div>
+  )
+}
+
+
+
+  {/* upcoming added this */}
 
         {/* <Div className="cs-member_social cs-primary_color">
           {memberSocial.linkedin && (
@@ -42,6 +49,3 @@ export default function Team({memberImage, memberName, memberDesignation, member
             </Link>
           )}
         </Div> */}
-      </Div>
-  )
-}

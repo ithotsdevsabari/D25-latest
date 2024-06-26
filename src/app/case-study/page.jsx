@@ -1,12 +1,12 @@
 'use client'
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import SectionHeading from "@/app/ui/SectionHeading";
+import Cta from "../ui/Cta";
+import Div from "../ui/Div";
+import PageHeading from "../ui/PageHeading";
+// import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
-import Image from "next/image";
-import imgUrl from '../../../../public/images/case_study_img_1.jpeg'
-import HireForm from "@/app/ui/HireSection/HireForm";
+// import Image from "next/image";
+// import imgUrl from '../../../../public/images/case_study_img_1.jpeg'
+import HireForm from "../ui/HireSection/HireForm";
 
 export default function CaseStudyDetailsPage() {
   return (

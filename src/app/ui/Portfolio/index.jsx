@@ -4,7 +4,7 @@ import Div from '../Div';
 import './portfolio.scss';
 
 export default function Portfolio({ href, src, title, subtitle, variant }) {
-  
+  console.log("href",href)
   return (
       <>
       {

@@ -220,7 +220,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/portfolio/portfolio-details"
+                              href="/portfolioDetailsId"
                               onClick={() => setMobileToggle(false)}
                             >
                               Portfolio Details
@@ -270,7 +270,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/team/teamdetails"
+                              href="/teamDetailsId"
                               onClick={() => setMobileToggle(false)}
                             >
                               Team
@@ -286,7 +286,7 @@ export default function Header({ variant }) {
                           </li> */}
                           <li>
                             <Link
-                              href="/case-study/case-study-details"
+                              href="/case-study"
                               onClick={() => setMobileToggle(false)}
                             >
                               Hire

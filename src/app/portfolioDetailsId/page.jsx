@@ -1,12 +1,12 @@
 'use client'
-import Button from "@/app/ui/Button";
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import SectionHeading from "@/app/ui/SectionHeading";
-import Spacing from "@/app/ui/Spacing";
+import Button from "../ui/Button";
+import Cta from "../ui/Cta";
+import Div from "../ui/Div";
+import PageHeading from "../ui/PageHeading";
+import SectionHeading from "../ui/SectionHeading";
+import Spacing from "../ui/Spacing";
 import Image from "next/image";
-import imgUrl from '../../../../public/images/portfolio_details_1.jpeg'
+import imgUrl from '../../../public/images/portfolio_details_1.jpeg'
 
 export default function PortfolioDetailsPage() {
   return (
@@ -68,10 +68,10 @@ export default function PortfolioDetailsPage() {
         <Spacing lg='65' md='10'/>
           <Div className="cs-page_navigation cs-center">
             <Div>
-              <Button btnLink='/portfolio/portfolio-details' btnText='Prev Project' variant='cs-type1'/>
+              <Button btnLink='/portfolioDetailsId' btnText='Prev Project' variant='cs-type1'/>
             </Div>
             <Div>
-              <Button btnLink='/portfolio/portfolio-details' btnText='Next Project'/>
+              <Button btnLink='/portfolioDetailsId' btnText='Next Project'/>
             </Div>
           </Div>
       </Div>
