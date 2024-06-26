@@ -4,7 +4,7 @@
             memberId:1,
             memberImage: '/images/new sakthi stephen.png',
             memberName: 'P.G. Sakthi Stephen',
-            memberDesignation: 'Head Producer',
+            memberDesignation: 'Proprietor',
             memberSocial: {
             linkedin: '/',
             twitter: '/',
@@ -86,20 +86,6 @@
       },
       {
         memberId:7,
-        memberImage: '/images/JOHN MERVIN.png',
-        memberName: 'John Mervin',
-        memberDesignation: 'Content Writer',
-        memberSocial: {
-          linkedin: '/',
-          twitter: '/',
-          youtube: '/',
-          facebook: '/',
-        },
-        mainpara : "“There is no greater agony than bearing an untold story inside you.” — says Maya Angelou. This drives me to unearth the untold stories through writing. As an aspiring writer, I am dedicated to giving my all in every piece I create, aiming to convey kindness and compassion for humanity in a direct and impactful manner, No greys in between.",
-        subpara : "Joining this organization aligns perfectly with my core values, marking a new chapter in mycareer. I am ready to dive into the depths of the sea and reach for the heights of the horizon, embracing the challenges and opportunities that lie ahead.",
-      },
-      {
-        memberId:8,
         memberImage: '/images/Jenniffer Steffy.png',
         memberName: 'Jenniffer Steffy',
         memberDesignation: 'Content Writer',
@@ -112,4 +98,19 @@
         mainpara : "A content writer is a skilled professional adept at crafting engaging and informative text tailored to a variety of audiences. Their expertise spans across multiple formats, including blog posts, articles, website content, and social media updates. By conducting thorough research and understanding the nuances of target demographics, content writers create compelling narratives that not only inform but also captivate readers. ",
         subpara : "Their work is crucial in establishing brand voice, driving web traffic, and fostering customer engagement.",
       },
+      {
+        memberId:8,
+        memberImage: '/images/JOHN MERVIN.png',
+        memberName: 'John Mervin',
+        memberDesignation: 'Associate content Writer',
+        memberSocial: {
+          linkedin: '/',
+          twitter: '/',
+          youtube: '/',
+          facebook: '/',
+        },
+        mainpara : "“There is no greater agony than bearing an untold story inside you.” — says Maya Angelou. This drives me to unearth the untold stories through writing. As an aspiring writer, I am dedicated to giving my all in every piece I create, aiming to convey kindness and compassion for humanity in a direct and impactful manner, No greys in between.",
+        subpara : "Joining this organization aligns perfectly with my core values, marking a new chapter in mycareer. I am ready to dive into the depths of the sea and reach for the heights of the horizon, embracing the challenges and opportunities that lie ahead.",
+      },
+     
 ]

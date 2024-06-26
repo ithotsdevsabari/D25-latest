@@ -72,7 +72,7 @@ function TeamDetailsContent() {
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">P.G. Sakthi Stephen</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Head Producer</h3>
+              <h3 className="cs-section_subtitle">Proprietor</h3>
               <Div className="cs-height_5 cs-height_lg_5" />
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
@@ -159,7 +159,7 @@ function TeamDetailsContent() {
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
               <p className="cs-m0">
-              I am a passionate and inventive media head with over a decade of experience,since 2009. My collaborative nature has allowed me to work with numerous renowned gospel and non-governmental organizations as a graphic designer and photographer. This has led me to work onsite in 20+ countries and offsite for clients from the UK, USA, and Germany.
+              I am a passionate and inventive media head with over a decade of experience, since 2009. My collaborative nature has allowed me to work with numerous renowned gospel and non-governmental organizations as a graphic designer and photographer. This has led me to work onsite in 20+ countries and offsite for clients from the UK, USA, and Germany.
               </p>
               <Div className="cs-height_25 cs-height_lg_20" />
               <p className="cs-m0">
@@ -299,14 +299,15 @@ function TeamDetailsContent() {
           </Div>
         </Div>
 
-
-          {/* member 7 */}
-          <Spacing lg="100" md="80" />
+         {/* member 7 */}
+         <Spacing lg="100" md="80" />
         <Div className="row align-items-center" id="7">
-          <Div className="col-xl-5 col-lg-6">
+         
+
+          <Div className="col-xl-5 col-lg-6 ">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image
-                src="/images/JOHN MERVIN.png"
+                src="/images/Jenniffer Steffy.png"
                 alt="Member"
                 className="w-100"
                 // placeholder="blur"
@@ -316,35 +317,6 @@ function TeamDetailsContent() {
             </Div>
           </Div>
           <Div className="col-lg-6 offset-xl-1">
-            <Spacing lg="0" md="45" />
-            <Div className="cs-section_heading cs-style1">
-              <h2 className="cs-section_title head_new_col">John Mervin</h2>
-              <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Content Writer</h3>
-              <Div className="cs-height_5 cs-height_lg_5" />
-              <Div className="cs-separator cs-accent_bg" />
-              <Div className="cs-height_45 cs-height_lg_25" />
-              <p className="cs-m0">
-              There is no greater agony than bearing an untold story inside you.” — says Maya Angelou. This drives me to unearth the untold stories through writing. As an aspiring writer, I am dedicated to giving my all in every piece I create, aiming to convey kindness and compassion for humanity in a direct and impactful manner, No greys in between.
-              </p>
-              <Div className="cs-height_25 cs-height_lg_20" />
-              <p className="cs-m0">
-              Joining this organization aligns perfectly with my core values, marking a new chapter in mycareer. I am ready to dive into the depths of the sea and reach for the heights of the horizon, embracing the challenges and opportunities that lie ahead.
-              </p>
-
-                {/* Social media added in future */}
-
-              {/* <Div className="cs-height_45 cs-height_lg_30" /> */}
-              {/* <SocialWidget /> */}
-            </Div>
-          </Div>
-        </Div>
-
-
-         {/* member 8 */}
-         <Spacing lg="100" md="80" />
-        <Div className="row align-items-center" id="8">
-          <Div className="col-lg-6">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">Jenniffer Steffy</h2>
@@ -367,11 +339,40 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
+        </Div>
 
+
+          {/* member 8 */}
+          <Spacing lg="100" md="80" />
+        <Div className="row align-items-center" id="8">
+          
+          <Div className="col-lg-6 ">
+            <Spacing lg="0" md="45" />
+            <Div className="cs-section_heading cs-style1">
+              <h2 className="cs-section_title head_new_col">John Mervin</h2>
+              <Div className="cs-height_10 cs-height_lg_10" />
+              <h3 className="cs-section_subtitle">Associate content Writer</h3>
+              <Div className="cs-height_5 cs-height_lg_5" />
+              <Div className="cs-separator cs-accent_bg" />
+              <Div className="cs-height_45 cs-height_lg_25" />
+              <p className="cs-m0">
+              There is no greater agony than bearing an untold story inside you.” — says Maya Angelou. This drives me to unearth the untold stories through writing. As an aspiring writer, I am dedicated to giving my all in every piece I create, aiming to convey kindness and compassion for humanity in a direct and impactful manner, No greys in between.
+              </p>
+              <Div className="cs-height_25 cs-height_lg_20" />
+              <p className="cs-m0">
+              Joining this organization aligns perfectly with my core values, marking a new chapter in my career. I am ready to dive into the depths of the sea and reach for the heights of the horizon, embracing the challenges and opportunities that lie ahead.
+              </p>
+
+                {/* Social media added in future */}
+
+              {/* <Div className="cs-height_45 cs-height_lg_30" /> */}
+              {/* <SocialWidget /> */}
+            </Div>
+          </Div>
           <Div className="col-xl-5 col-lg-6 offset-xl-1">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image
-                src="/images/Jenniffer Steffy.png"
+                src="/images/JOHN MERVIN.png"
                 alt="Member"
                 className="w-100"
                 // placeholder="blur"
@@ -382,8 +383,11 @@ function TeamDetailsContent() {
           </Div>
         </Div>
 
+
+        
+
       </Div>
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="container">
         <Cta
           title="We are Hiring"
@@ -391,7 +395,7 @@ function TeamDetailsContent() {
           btnLink="/case-study/caseStudyId"
           bgSrc="/images/cta_bg.jpeg"
         />
-      </Div>
+      </Div> */}
     </>
   );
 }
