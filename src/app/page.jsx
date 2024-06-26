@@ -224,13 +224,13 @@ export default function Home() {
       {/* End Video Block Section */}
 
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      <Spacing lg="50" md="80" />
       <Div className="container">
         <SectionHeading
           title="Our Crew"
           subtitle="Our Team"
           variant="cs-style1"/>
-        <Spacing lg="85" md="45"/>
+        <Spacing lg="30" md="45"/>
         <TeamSlider />
       </Div>
       {/* <Spacing lg="150" md="80" /> */}

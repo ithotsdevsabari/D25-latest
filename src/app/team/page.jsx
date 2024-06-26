@@ -25,7 +25,6 @@ export default function TeamPage() {
         <Spacing lg="90" md="45"/>
         <Div className="row">
           {memberData.map((item, index) => {
-            console.log(item.memberId);
             return (
               <Div key={index} className="col-lg-3 col-sm-6">
                 <Team
