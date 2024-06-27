@@ -19,7 +19,7 @@ export default function FunFact({ variant, title, subtitle, data }) {
           <p>{subtitle}</p>
         </Div>
       </Div>
-      <Div className="cs-funfact_right pt-4">
+      <Div className="cs-funfact_right">
         <Div className="cs-funfacts">
           {data.map((item, index) => (
             <Div className="cs-funfact cs-style1" key={index}>

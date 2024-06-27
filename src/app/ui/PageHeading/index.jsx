@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";;
 import Div from '../Div';
 
-export default function PageHeading({ title, bgSrc, pageLinkText }) {
+export default function PageHeading({ title, bgSrc, pageLinkText,customLink,customLinkName }) {
   return (
     <Div
       className="cs-page_heading cs-style1 cs-center text-center cs-bg"
@@ -14,7 +14,9 @@ export default function PageHeading({ title, bgSrc, pageLinkText }) {
           <ol className="breadcrumb text-uppercase">
             <li className="breadcrumb-item">
               <Link href="/">Home</Link>
+             
             </li>
+             {customLink &&<li className="breadcrumb-item"> <Link href={customLink}>{customLinkName}</Link> </li>}
             <li className="breadcrumb-item active">{pageLinkText}</li>
           </ol>
         </Div>

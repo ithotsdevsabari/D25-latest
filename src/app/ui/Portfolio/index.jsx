@@ -4,11 +4,11 @@ import Div from '../Div';
 import './portfolio.scss';
 
 export default function Portfolio({ href, src, title, subtitle, variant }) {
-  console.log("href",href)
+  console.log("href",title)
   return (
       <>
       {
-       title === "Uru Thiruvizha" || title === "Award Function" || title === "Needed" ?
+       title === "Uru Thiruvizha" || title === "Award Function" || title === "Needed" || title === "Cookery Show" ?
         
         <Div className={`cs-portfolio cs-bg ${variant ? variant : 'cs-style1'}`}>
         <Div className="cs-portfolio_hover" />

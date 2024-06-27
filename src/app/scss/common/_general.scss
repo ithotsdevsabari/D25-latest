@@ -1,3 +1,7 @@
+.phone-view{
+  display: none;
+}
+
 .cs-row_gap_20 {
   margin-left: -10px;
   margin-right: -10px;
@@ -1516,6 +1520,13 @@ label {
 }
 
 @media screen and (max-width: 767px) {
+
+  .phone-view{
+    display: block;
+  }
+  .large-screen{
+    display: none;
+  }
   .cs-tabs.cs-style1 {
     .cs-tabs_heading {
       display: block;

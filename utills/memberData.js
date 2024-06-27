@@ -87,7 +87,7 @@
       {
         memberId:7,
         memberImage: '/images/Jenniffer Steffy.png',
-        memberName: 'Jenniffer Steffy',
+        memberName: 'Jeniffer Steffy',
         memberDesignation: 'Content Writer',
         memberSocial: {
           linkedin: '/',

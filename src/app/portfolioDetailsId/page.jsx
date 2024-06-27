@@ -15,6 +15,8 @@ export default function PortfolioDetailsPage() {
         title='Portfolio Details'
         bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText='PORTFOLIO-DETAILS'
+        customLink="/portfolio"
+        customLinkName="Portfolio"
       />
       <Spacing lg='150' md='80'/>
       <Div className="container">
@@ -23,13 +25,17 @@ export default function PortfolioDetailsPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading 
-              title='Contest' 
+              title='praise voice' 
+
               subtitle='Creative' 
             >
-              <Spacing lg='40' md='20'/>
-              <p>With a vision of assisting people like them, we started probing further and rallied all dioceses and denominations to endorse our idea. They have all decided to undertake my vision after a 5 years effort and reached throughout Tamil Nadu. At the end, The reality show 'PRAISE VOICE' became a manifestation of the vision.</p>
+               <Spacing lg='20' md='20'/>
+              <h2 className="cs-section_subtitle">{"Contest"}</h2>
+              {/* <Spacing lg='40' md='20'/> */}
+              <p>With a vision of assisting people, we started probing further and rallied all dioceses and denominations to endorse our idea. After five years of effort, they decided to undertake my vision, reaching throughout Tamil Nadu. As a result, the reality show "PRAISE VOICE" became a manifestation of this vision. 
+              </p>
               <Spacing lg='10' md='10'/>
-              <p>In this attempt, I presented my vision to Sathiyam TV's managing director, Isaac Livingstone. He worked to help our vision by backing us and becoming our media partner, through which the show will be broadcast. This reality show contains 50 EPISODES and GRAND FINALE. It starts from July and ends in DECEMBER.</p>
+              <p>During this journey, I presented my vision to Sathiyam TV's Managing Director, Isaac Livingstone. He supported our vision by backing us and becoming our media partner, through which the show will be broadcast. This reality show contains 50 episodes and a grand finale. It starts in July and ends in December. </p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -65,15 +71,15 @@ export default function PortfolioDetailsPage() {
             </Div>
           </Div>
         </Div>
-        <Spacing lg='65' md='10'/>
-          <Div className="cs-page_navigation cs-center">
+        {/* <Spacing lg='65' md='10'/> */}
+          {/* <Div className="cs-page_navigation cs-center">
             <Div>
               <Button btnLink='/portfolioDetailsId' btnText='Prev Project' variant='cs-type1'/>
             </Div>
             <Div>
               <Button btnLink='/portfolioDetailsId' btnText='Next Project'/>
             </Div>
-          </Div>
+          </Div> */}
       </Div>
       <Spacing lg='100' md='80'/>
             {/* Start CTA Section */}
