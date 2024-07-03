@@ -1,12 +1,12 @@
 'use client'
-import Card from "../ui/Card";
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import PricingTableList from "@/app/ui/PricingTable/PricingTableList";
-import SectionHeading from "@/app/ui/SectionHeading";
-import TestimonialSlider from "@/app/ui/Slider/TestimonialSlider";
-import Spacing from "@/app/ui/Spacing";
+import Card from "../app/ui/Card";
+import Cta from "../app/ui/Cta";
+import Div from "../app/ui/Div";
+import PageHeading from "../app/ui/PageHeading";
+import PricingTableList from "../app/ui/PricingTable/PricingTableList";
+import SectionHeading from "../app/ui/SectionHeading";
+import TestimonialSlider from "../app/ui/Slider/TestimonialSlider";
+import Spacing from "../app/ui/Spacing";
 
 export default function ServicesPage() {
   return (

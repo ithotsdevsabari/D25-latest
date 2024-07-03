@@ -1,9 +1,9 @@
 'use client'
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import SectionHeading from "@/app/ui/SectionHeading";
-import Spacing from "@/app/ui/Spacing";
-import ContactInfoWidget from "@/app/ui/Widget/ContactInfoWidget";
+import Div from "../ui/Div";
+import PageHeading from "../ui/PageHeading";
+import SectionHeading from "../ui/SectionHeading";
+import Spacing from "../ui/Spacing";
+import ContactInfoWidget from "../ui/Widget/ContactInfoWidget";
 import { Icon } from "@iconify/react";
 
 export default function ContactPage() {

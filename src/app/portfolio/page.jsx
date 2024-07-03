@@ -1,12 +1,12 @@
 "use client";
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import Portfolio from "@/app/ui/Portfolio";
-import SectionHeading from "@/app/ui/SectionHeading";
-import Spacing from "@/app/ui/Spacing";
+import React, { useEffect, useRef, useState } from "react";
+import Cta from "../ui/Cta";
+import Div from "../ui/Div";
+import PageHeading from "../ui/PageHeading";
+import Portfolio from "../ui/Portfolio";
+import SectionHeading from "../ui/SectionHeading";
+import Spacing from "../ui/Spacing";
 import { Icon } from "@iconify/react";
-import { useState } from "react";
 
 const portfolioData = [
   {
@@ -44,41 +44,6 @@ const portfolioData = [
     src: "/images/portfolio_8.jpeg",
     category: "ui_ux_design",
   },
-  // {
-  //   title: 'Colorful Art Work',
-  //   subtitle: 'See Details',
-  //   href: '/portfolioDetailsId',
-  //   src: '/images/portfolio_9.jpeg',
-  //   category: 'web_design',
-  // },
-  // {
-  //   title: 'Colorful Art Work',
-  //   subtitle: 'See Details',
-  //   href: '/portfolioDetailsId',
-  //   src: '/images/portfolio_10.jpeg',
-  //   category: 'logo_design',
-  // },
-  // {
-  //   title: 'Colorful Art Work',
-  //   subtitle: 'See Details',
-  //   href: '/portfolioDetailsId',
-  //   src: '/images/portfolio_4.jpeg',
-  //   category: 'ui_ux_design',
-  // },
-  // {
-  //   title: 'Colorful Art Work',
-  //   subtitle: 'See Details',
-  //   href: '/portfolioDetailsId',
-  //   src: '/images/portfolio_5.jpeg',
-  //   category: 'logo_design',
-  // },
-  // {
-  //   title: 'Colorful Art Work',
-  //   subtitle: 'See Details',
-  //   href: '/portfolioDetailsId',
-  //   src: '/images/portfolio_6.jpeg',
-  //   category: 'web_design',
-  // },
 ];
 const categoryMenu = [
   {
@@ -102,6 +67,13 @@ const categoryMenu = [
 export default function PortfolioPage() {
   const [active, setActive] = useState("all");
   const [itemShow, setItemShow] = useState(7);
+  const portfolioSectionRef = useRef(null);
+
+  useEffect(() => {
+    if (portfolioSectionRef.current) {
+      portfolioSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
 
   return (
     <>
@@ -110,30 +82,12 @@ export default function PortfolioPage() {
         bgSrc="/images/portfolio_hero_bg.jpeg"
         pageLinkText="Portfolio"
       />
+      
+      <div ref={portfolioSectionRef}>
       <Spacing lg="145" md="80" />
-      <Div className="container">
+      <Div className="container" >
         <Div className="cs-portfolio_1_heading">
           <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
-
-          {/* Added in future Tab sec */}
-
-          {/* <Div className="cs-filter_menu cs-style1">
-            <ul className="cs-mp0 cs-center">
-              <li className={active === 'all' ? 'active' : ''}>
-                <span onClick={() => setActive('all')}>All</span>
-              </li>
-              {categoryMenu.map((item, index) => (
-                <li
-                  className={active === item.category ? 'active' : ''}
-                  key={index}
-                >
-                  <span onClick={() => setActive(item.category)}>
-                    {item.title}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </Div> */}
         </Div>
         <Spacing lg="90" md="45" />
         <Div className="row">
@@ -180,20 +134,17 @@ export default function PortfolioPage() {
         </Div>
       </Div>
       <Spacing lg="100" md="80" />
-      {/* <Cta
-        title="d25entertainment@gmail.com"
-        bgSrc="/images/cta_bg_2.jpeg"
-        variant="rounded-0"
-      /> */}
+  
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s discuss make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />
       </Div>
+      </div>
       {/* End CTA Section */}
     </>
   );

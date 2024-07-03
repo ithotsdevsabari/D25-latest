@@ -1,7 +1,7 @@
 'use client';
-import Header from '@/app/ui/Header';
-import CustomCursor from '@/app/ui/CustomCursor';
-import Footer from '@/app/ui/Footer';
+import Header from '../app/ui/Header';
+import CustomCursor from '../app/ui/CustomCursor';
+import Footer from '../app/ui/Footer';
 import './scss/index.scss';
 import { Poppins, Open_Sans } from 'next/font/google';
 import './style.css';

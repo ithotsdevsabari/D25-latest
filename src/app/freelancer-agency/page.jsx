@@ -1,16 +1,16 @@
 'use client'
 import { useState } from "react";
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import Hero8 from "@/app/ui/Hero/Hero8";
-import LogoList from "@/app/ui/LogoList";
-import MovingText from "@/app/ui/MovingText";
-import Portfolio from "@/app/ui/Portfolio";
-import SectionHeading from "@/app/ui/SectionHeading";
-import ServiceListStyle2 from "@/app/ui/ServiceList/ServiceListStyle2";
-import TestimonialSlider from "@/app/ui/Slider/TestimonialSlider";
-import Spacing from "@/app/ui/Spacing";
-import VideoModal from "@/app/ui/VideoModal";
+import Cta from "../app/ui/Cta";
+import Div from "../app/ui/Div";
+import Hero8 from "../app/ui/Hero/Hero8";
+import LogoList from "../app/ui/LogoList";
+import MovingText from "../app/ui/MovingText";
+import Portfolio from "../app/ui/Portfolio";
+import SectionHeading from "../app/ui/SectionHeading";
+import ServiceListStyle2 from "../app/ui/ServiceList/ServiceListStyle2";
+import TestimonialSlider from "../app/ui/Slider/TestimonialSlider";
+import Spacing from "../app/ui/Spacing";
+import VideoModal from "../app/ui/VideoModal";
 import { Icon } from "@iconify/react";
 
 

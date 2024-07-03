@@ -1,9 +1,8 @@
 'use client'
-import Cta from "../ui/Cta";
 import Div from "../ui/Div";
 import PageHeading from "../ui/PageHeading";
-// import SectionHeading from "@/app/ui/SectionHeading";
-import Spacing from "@/app/ui/Spacing";
+// import SectionHeading from "../ui/SectionHeading";
+import Spacing from "../ui/Spacing";
 // import Image from "next/image";
 // import imgUrl from '../../../../public/images/case_study_img_1.jpeg'
 import HireForm from "../ui/HireSection/HireForm";

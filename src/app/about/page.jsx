@@ -1,12 +1,12 @@
 "use client";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import FunFact from "@/app/ui/FunFact";
-import PageHeading from "@/app/ui/PageHeading";
-import SectionHeading from "@/app/ui/SectionHeading";
-import TeamSlider from "@/app/ui/Slider/TeamSlider";
-import Spacing from "@/app/ui/Spacing";
+import Div from "../ui/Div";
+import FunFact from "../ui/FunFact";
+import PageHeading from "../ui/PageHeading";
+import SectionHeading from "../ui/SectionHeading";
+import TeamSlider from "../ui/Slider/TeamSlider";
+import Spacing from "../ui/Spacing";
 import aboutImg from "../../../public/images/about_img_1.jpeg";
 import aboutImg2 from "../../../public/images/about_img_2.jpeg";
 import aboutImg3 from "../../../public/images/about_img_3.jpeg";
@@ -32,6 +32,14 @@ const funfaceData = [
 ];
 
 export default function AboutPage() {
+  const aboutSectionRef = useRef(null);
+
+  useEffect(() => {
+    if (aboutSectionRef.current) {
+      aboutSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <>
       {/* Start Page Heading Section */}
@@ -43,43 +51,45 @@ export default function AboutPage() {
       {/* End Page Heading Section */}
 
       {/* Start About Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="container">
-        <Div className="row">
-          <Div className="col-xl-6 col-lg-7">
-            <SectionHeading
-              title="Unleashing the potential and Empowering the Wunderkind"
-              subtitle="We will mention about our Mission and Vision"
-            >
-              <Spacing lg="30" md="20" />
-              <p className="cs-m0">
-                D25 Entertainment's mission and vision is to proclaim the
-                dissemination of good news, in addition to publicly
-                demonstrating the skills and talents of hidden gems to the
-                entire nation via media. To overcome all of the abstractions
-                that have prevented these people from coming out, thereby
-                restoring humanity and love within all.
-              </p>
-              <Spacing lg="30" md="30" />
-              <Div className="cs-separator cs-accent_bg"></Div>
-              <Spacing lg="25" md="40" />
-            </SectionHeading>
-          </Div>
-          <Div className="col-lg-5 offset-xl-1">
-            <Image src={aboutImg} alt="About" className="w-100 cs-radius_15" />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-7">
-            <Image src={aboutImg2} alt="About" className="w-100 cs-radius_15" />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-5">
-            <Image src={aboutImg3} alt="About" className="w-100 cs-radius_15" />
-            <Spacing lg="25" md="25" />
+      <div ref={aboutSectionRef}>
+        <Spacing lg="150" md="80" />
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-xl-6 col-lg-7">
+              <SectionHeading
+                title="Unleashing the potential and Empowering the Wunderkind"
+                subtitle="We will mention about our Mission and Vision"
+              >
+                <Spacing lg="30" md="20" />
+                <p className="cs-m0">
+                  D25 Entertainment's mission and vision is to proclaim the
+                  dissemination of good news, in addition to publicly
+                  demonstrating the skills and talents of hidden gems to the
+                  entire nation via media. To overcome all of the abstractions
+                  that have prevented these people from coming out, thereby
+                  restoring humanity and love within all.
+                </p>
+                <Spacing lg="30" md="30" />
+                <Div className="cs-separator cs-accent_bg"></Div>
+                <Spacing lg="25" md="40" />
+              </SectionHeading>
+            </Div>
+            <Div className="col-lg-5 offset-xl-1">
+              <Image src={aboutImg} alt="About" className="w-100 cs-radius_15" />
+              <Spacing lg="25" md="25" />
+            </Div>
+            <Div className="col-lg-7">
+              <Image src={aboutImg2} alt="About" className="w-100 cs-radius_15" />
+              <Spacing lg="25" md="25" />
+            </Div>
+            <Div className="col-lg-5">
+              <Image src={aboutImg3} alt="About" className="w-100 cs-radius_15" />
+              <Spacing lg="25" md="25" />
+            </Div>
           </Div>
         </Div>
-      </Div>
-      <Spacing lg="75" md="55" />
+        <Spacing lg="75" md="55" />
+      </div>
       {/* End About Section */}
 
       {/* Start Fun Fact Section */}

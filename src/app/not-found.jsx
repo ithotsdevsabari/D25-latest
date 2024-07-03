@@ -1,6 +1,6 @@
 'use client'
-import Div from "@/app/ui/Div";
-import SectionHeading from "@/app/ui/SectionHeading";
+import Div from "../app/ui/Div";
+import SectionHeading from "../app/ui/SectionHeading";
 
 
 export default function ErrorPage() {

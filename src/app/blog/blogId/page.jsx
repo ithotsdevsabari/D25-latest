@@ -1,9 +1,9 @@
 'use client'
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import Sidebar from "@/app/ui/Sidebar.jsx/index.jsx";
-import Spacing from "@/app/ui/Spacing";
+import Cta from "../app/ui/Cta";
+import Div from "../app/ui/Div";
+import PageHeading from "../app/ui/PageHeading";
+import Sidebar from "../app/ui/Sidebar.jsx/index.jsx";
+import Spacing from "../app/ui/Spacing";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";

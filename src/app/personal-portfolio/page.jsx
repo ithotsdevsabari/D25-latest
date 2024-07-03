@@ -1,14 +1,14 @@
 'use client'
 import { useEffect, useState } from "react";
-import Cta from "@/app/ui/Cta";
-import Div from "@/app/ui/Div";
-import FunFact from "@/app/ui/FunFact";
-import Hero11 from "@/app/ui/Hero/Hero11";
-import Portfolio from "@/app/ui/Portfolio";
-import SectionHeading from "@/app/ui/SectionHeading";
-import ServiceList from "@/app/ui/ServiceList";
-import TestimonialSliderStyle4 from "@/app/ui/Slider/TestimonialSliderStyle4";
-import Spacing from "@/app/ui/Spacing";
+import Cta from "../app/ui/Cta";
+import Div from "../app/ui/Div";
+import FunFact from "../app/ui/FunFact";
+import Hero11 from "../app/ui/Hero/Hero11";
+import Portfolio from "../app/ui/Portfolio";
+import SectionHeading from "../app/ui/SectionHeading";
+import ServiceList from "../app/ui/ServiceList";
+import TestimonialSliderStyle4 from "../app/ui/Slider/TestimonialSliderStyle4";
+import Spacing from "../app/ui/Spacing";
 import { Icon } from "@iconify/react";
 
 

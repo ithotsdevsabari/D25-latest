@@ -1,83 +1,20 @@
 "use client"
 import { Suspense } from 'react';
-import Cta from '../ui/Cta';
-import Div from '../ui/Div';
-import PageHeading from '../ui/PageHeading';
-import Spacing from '../ui/Spacing';
-import SectionHeading from '../ui/SectionHeading';
+import Cta from '../Cta';
+import Div from '../Div';
+import PageHeading from '../PageHeading';
+import Spacing from '../Spacing';
+import SectionHeading from '../SectionHeading';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import { useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-import TeamDetailsMobile from '../ui/TeamMobileVersion';
 
-export default function TeamDetails() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <TeamDetailsContent />
-    </Suspense>
-  );
-}
-
-function TeamDetailsContent() {
-  const searchParams = useSearchParams();
-  const paramsId = searchParams?.get('data');
-  console.log(paramsId)
-
-
-  useEffect(() => {
-    if (paramsId) {
-      const element = document.getElementById(paramsId);
-      console.log("hiiiiiii",element)
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }, [paramsId]);
-
-  
-
+export default function TeamDetailsMobile() {
   return (
     <>
-
-    {/* added static page */}
-
-      <PageHeading
-        title="Team"
-        bgSrc="/images/team_hero_bg.jpeg"
-        pageLinkText="Team"
-      />
-      <Spacing lg="150" md="80" />
-      <Div className="container">
-
-      <SectionHeading
-          title="Meet Our Crew"
-          subtitle="Our Team"
-          variant="cs-style1 text-center"
-        />
-          <Spacing lg="90" md="45" />
-
-          {<Div className="phone-view">
-           {/* member 1 */}
-        <TeamDetailsMobile/>
-        </Div>}
-
-<div className='large-screen'>
-        {/* member 1 */}
-        <Div className="row align-items-center" id="1">
-          <Div className="col-xl-5 col-lg-6">
-            <Div className="cs-radius_15 cs-shine_hover_1">
-              <Image
-                src="/images/new sakthi stephen.png"
-                alt="Member"
-                className="w-100"
-                // placeholder="blur"
-                width= "400"
-                height="700"
-              />
-            </Div>
-          </Div>
-          <Div className="col-lg-6 offset-xl-1">
+    <Div className="row align-items-center" id="1">
+        <Div className="col-lg-6 ">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">P.G. Sakthi Stephen</h2>
@@ -100,6 +37,20 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
+          <Spacing  md="20" />
+          <Div className="col-xl-5 col-lg-6 offset-xl-1">
+            <Div className="cs-radius_15 cs-shine_hover_1">
+              <Image
+                src="/images/new sakthi stephen.png"
+                alt="Member"
+                className="w-100"
+                // placeholder="blur"
+                width= "400"
+                height="700"
+              />
+            </Div>
+          </Div>
+         
         </Div>
 
         {/* member 2 */}
@@ -128,7 +79,7 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
-
+          <Spacing  md="20" />
           <Div className="col-xl-5 col-lg-6 offset-xl-1">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image
@@ -147,19 +98,7 @@ function TeamDetailsContent() {
         {/* member 3 */}
         <Spacing lg="100" md="80" />
         <Div className="row align-items-center" id="3">
-          <Div className="col-xl-5 col-lg-6">
-            <Div className="cs-radius_15 cs-shine_hover_1">
-              <Image
-                src="/images/JOSHUA GIFTSON.png"
-                alt="Member"
-                className="w-100"
-                // placeholder="blur"
-                width= "400"
-                height="700"
-              />
-            </Div>
-          </Div>
-          <Div className="col-lg-6 offset-xl-1">
+        <Div className="col-lg-6 ">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">Joshua Giftson</h2>
@@ -182,13 +121,28 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
+          <Spacing  md="20" />
+          <Div className="col-xl-5 col-lg-6 offset-xl-1">
+            <Div className="cs-radius_15 cs-shine_hover_1">
+              <Image
+                src="/images/JOSHUA GIFTSON.png"
+                alt="Member"
+                className="w-100"
+                // placeholder="blur"
+                width= "400"
+                height="700"
+              />
+            </Div>
+          </Div>
+          
         </Div>
 
 
          {/* member 4 */}
          <Spacing lg="100" md="80" />
         <Div className="row align-items-center" id="4">
-          <Div className="col-lg-6">
+         
+        <Div className="col-lg-6 ">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">Jenefer Josabath</h2>
@@ -211,7 +165,7 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
-
+          <Spacing  md="20" />
           <Div className="col-xl-5 col-lg-6 offset-xl-1">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image
@@ -224,25 +178,14 @@ function TeamDetailsContent() {
               />
             </Div>
           </Div>
+          
         </Div>
 
 
          {/* member 5 */}
          <Spacing lg="100" md="80" />
         <Div className="row align-items-center" id="5">
-          <Div className="col-xl-5 col-lg-6">
-            <Div className="cs-radius_15 cs-shine_hover_1">
-              <Image
-                src="/images/MAXELL RODRIGUES.png"
-                alt="Member"
-                className="w-100"
-                // placeholder="blur"
-                width= "400"
-                height="700"
-              />
-            </Div>
-          </Div>
-          <Div className="col-lg-6 offset-xl-1">
+        <Div className="col-lg-6 ">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">Maxell Rodrigues</h2>
@@ -265,13 +208,28 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
+          <Spacing  md="20" />
+          <Div className="col-xl-5 col-lg-6 offset-xl-1">
+            <Div className="cs-radius_15 cs-shine_hover_1">
+              <Image
+                src="/images/MAXELL RODRIGUES.png"
+                alt="Member"
+                className="w-100"
+                // placeholder="blur"
+                width= "400"
+                height="700"
+              />
+            </Div>
+          </Div>
+          
         </Div>
 
 
          {/* member 6 */}
          <Spacing lg="100" md="80" />
         <Div className="row align-items-center" id="6">
-          <Div className="col-lg-6">
+         
+        <Div className="col-lg-6">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">Nandhini</h2>
@@ -294,7 +252,7 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
-
+          <Spacing  md="20" />
           <Div className="col-xl-5 col-lg-6 offset-xl-1">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image
@@ -307,26 +265,13 @@ function TeamDetailsContent() {
               />
             </Div>
           </Div>
+         
         </Div>
 
          {/* member 7 */}
          <Spacing lg="100" md="80" />
         <Div className="row align-items-center" id="7">
-         
-
-          <Div className="col-xl-5 col-lg-6 ">
-            <Div className="cs-radius_15 cs-shine_hover_1">
-              <Image
-                src="/images/Jenniffer Steffy.png"
-                alt="Member"
-                className="w-100"
-                // placeholder="blur"
-                width= "400"
-                height="700"
-              />
-            </Div>
-          </Div>
-          <Div className="col-lg-6 offset-xl-1">
+          <Div className="col-lg-6 ">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">Jeniffer Steffy</h2>
@@ -347,6 +292,19 @@ function TeamDetailsContent() {
 
               {/* <Div className="cs-height_45 cs-height_lg_30" /> */}
               {/* <SocialWidget /> */}
+            </Div>
+          </Div>
+          <Spacing  md="20" />
+          <Div className="col-xl-5 col-lg-6 offset-xl-1">
+            <Div className="cs-radius_15 cs-shine_hover_1">
+              <Image
+                src="/images/Jenniffer Steffy.png"
+                alt="Member"
+                className="w-100"
+                // placeholder="blur"
+                width= "400"
+                height="700"
+              />
             </Div>
           </Div>
         </Div>
@@ -379,6 +337,7 @@ function TeamDetailsContent() {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
+          <Spacing  md="20" />
           <Div className="col-xl-5 col-lg-6 offset-xl-1">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image
@@ -392,22 +351,7 @@ function TeamDetailsContent() {
             </Div>
           </Div>
         </Div>
-        </div>
-
-       
-
-        
-
-      </Div>
-      {/* <Spacing lg="150" md="80" />
-      <Div className="container">
-        <Cta
-          title="We are Hiring"
-          btnText="Apply now"
-          btnLink="/case-study/caseStudyId"
-          bgSrc="/images/cta_bg.jpeg"
-        />
-      </Div> */}
-    </>
+        </>
   );
+
 }

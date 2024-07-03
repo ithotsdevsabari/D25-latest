@@ -1,9 +1,9 @@
 "use client";
-import Div from "@/app/ui/Div";
-import PageHeading from "@/app/ui/PageHeading";
-import SectionHeading from "@/app/ui/SectionHeading";
-import Spacing from "@/app/ui/Spacing";
-import ContactInfoWidget from "@/app/ui/Widget/ContactInfoWidget";
+import Div from "../Div";
+import PageHeading from "../PageHeading";
+import SectionHeading from "../SectionHeading";
+import Spacing from "../Spacing";
+import ContactInfoWidget from "../Widget/ContactInfoWidget";
 import { Icon } from "@iconify/react";
 import { useEffect } from "react";
 

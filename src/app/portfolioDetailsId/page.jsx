@@ -7,8 +7,15 @@ import SectionHeading from "../ui/SectionHeading";
 import Spacing from "../ui/Spacing";
 import Image from "next/image";
 import imgUrl from '../../../public/images/portfolio_details_1.jpeg'
+import { useEffect,useRef } from "react";
 
 export default function PortfolioDetailsPage() {
+  const portfolioDetailSection = useRef(null);
+  useEffect(() => {
+    if (portfolioDetailSection.current) {
+      portfolioDetailSection.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
   return (
     <>
       <PageHeading 
@@ -18,8 +25,10 @@ export default function PortfolioDetailsPage() {
         customLink="/portfolio"
         customLinkName="Portfolio"
       />
+      
+      <div ref={portfolioDetailSection}>
       <Spacing lg='150' md='80'/>
-      <Div className="container">
+      <Div className="container" >
         <Image src={imgUrl} alt="Details" placeholder="blur" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40'/>
         <Div className="row">
@@ -91,6 +100,7 @@ export default function PortfolioDetailsPage() {
           bgSrc="/images/cta_bg.jpeg"
         />
       </Div>
+      </div>
       {/* End CTA Section */}
     </>
   )
