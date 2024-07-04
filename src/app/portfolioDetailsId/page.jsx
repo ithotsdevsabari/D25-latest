@@ -34,7 +34,7 @@ export default function PortfolioDetailsPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading 
-              title='praise voice' 
+              title='Praise voice' 
 
               subtitle='Creative' 
             >

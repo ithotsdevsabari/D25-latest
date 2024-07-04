@@ -56,10 +56,16 @@ const portfolioData = [
     src: '/images/priceVoicelogo.png',
   },
   {
+    title: 'Cookery Show',
+    subtitle: 'See Details',
+    href: '/portfolio',
+    src: '/images/portfolio_3.jpeg',
+  },
+  {
     title: 'Award Function',
     subtitle: 'See Details',
     href: '/portfolio',
-    src: '/images/portfolio_2.jpeg',
+    src: '/images/pikaso_texttoimage_award-trophy-gold-glow-bright-orange-color-palette 1.jpg',
   },
   {
     title: 'Israel Kondattam',
@@ -68,11 +74,18 @@ const portfolioData = [
     src: '/images/portfolio_0.jpg',
   },
   {
-    title: 'Cookery Show',
+    title: 'Uru thiruvizha',
     subtitle: 'See Details',
     href: '/portfolio',
-    src: '/images/portfolio_3.jpeg',
+    src: '/images/pikaso_texttoimage_photo-posted-to-myspace-in-2007-celebration-in-tam 1.jpg',
   },
+  {
+    title: 'Question Mark ',
+    subtitle: 'New Arena For Film Makers ',
+    href: '/portfolio',
+    src: '/images/pikaso_texttoimage_35mm-film-photography-movie-camera-with-question-m 1 1.jpg',
+  },
+
 ];
 
 export default function Home() {

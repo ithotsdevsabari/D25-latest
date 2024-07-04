@@ -10,7 +10,7 @@ import Spacing from "../ui/Spacing";
 import aboutImg from "../../../public/images/about_img_1.jpeg";
 import aboutImg2 from "../../../public/images/about_img_2.jpeg";
 import aboutImg3 from "../../../public/images/about_img_3.jpeg";
-import aboutImg4 from "../../../public/images/about_img_4.jpeg";
+import aboutImg4 from "../../../public/images/groupImage.jpg";
 
 const funfaceData = [
   {
