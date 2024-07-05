@@ -1,18 +1,18 @@
 'use client'
-import Cta from "../app/ui/Cta";
-import Div from "../app/ui/Div";
-import FunFact2 from "../app/ui/FunFact/FunFact2";
-import Hero5 from "../app/ui/Hero/Hero5";
-import LogoList from "../app/ui/LogoList";
-import MovingText from "../app/ui/MovingText";
-import PricingTableList from "../app/ui/PricingTable/PricingTableList";
-import SectionHeading from "../app/ui/SectionHeading";
-import ServiceList from "../app/ui/ServiceList";
-import PortfolioSlider2 from "../app/ui/Slider/PortfolioSlider2";
-import PostSlider from "../app/ui/Slider/PostSlider";
-import TestimonialSlider from "../app/ui/Slider/TestimonialSlider";
-import Spacing from "../app/ui/Spacing";
-import VideoModal from "../app/ui/VideoModal";
+import Cta from "../ui/Cta";
+import Div from "../ui/Div";
+import FunFact2 from "../ui/FunFact/FunFact2";
+import Hero5 from "../ui/Hero/Hero5";
+import LogoList from "../ui/LogoList";
+import MovingText from "../ui/MovingText";
+import PricingTableList from "../ui/PricingTable/PricingTableList";
+import SectionHeading from "../ui/SectionHeading";
+import ServiceList from "../ui/ServiceList";
+import PortfolioSlider2 from "../ui/Slider/PortfolioSlider2";
+import PostSlider from "../ui/Slider/PostSlider";
+import TestimonialSlider from "../ui/Slider/TestimonialSlider";
+import Spacing from "../ui/Spacing";
+import VideoModal from "../ui/VideoModal";
 
 const heroSocialLinks = [
   {

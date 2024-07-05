@@ -1,19 +1,19 @@
 'use client'
-import Div from "../app/ui/Div";
-import FunFact from "../app/ui/FunFact";
-import GalleryStyle2 from "../app/ui/Gallery/GalleryStyle2";
-import Hero9 from "../app/ui/Hero/Hero9";
-import IconBoxStyle2 from "../app/ui/IconBox/IconBoxStyle2";
-import LogoList from "../app/ui/LogoList";
-import MovingText from "../app/ui/MovingText";
-import SectionHeading from "../app/ui/SectionHeading";
-import PortfolioSlider from "../app/ui/Slider/PortfolioSlider";
-import TeamSlider from "../app/ui/Slider/TeamSlider";
-import TestimonialSliderStyle2 from "../app/ui/Slider/TestimonialSliderStyle2";
-import Spacing from "../app/ui/Spacing";
-import ContactInfoWidget from "../app/ui/Widget/ContactInfoWidget";
+import Div from "../ui/Div";
+import FunFact from "../ui/FunFact";
+import GalleryStyle2 from "../ui/Gallery/GalleryStyle2";
+import Hero9 from "../ui/Hero/Hero9";
+import IconBoxStyle2 from "../ui/IconBox/IconBoxStyle2";
+import LogoList from "../ui/LogoList";
+import MovingText from "../ui/MovingText";
+import SectionHeading from "../ui/SectionHeading";
+import PortfolioSlider from "../ui/Slider/PortfolioSlider";
+import TeamSlider from "../ui/Slider/TeamSlider";
+import TestimonialSliderStyle2 from "../ui/Slider/TestimonialSliderStyle2";
+import Spacing from "../ui/Spacing";
+import ContactInfoWidget from "../ui/Widget/ContactInfoWidget";
 import { Icon } from "@iconify/react";
-import '../app/ui/IconBox/iconbox.scss'
+import '../ui/IconBox/iconbox.scss'
 
 const funfaceData = [
   {

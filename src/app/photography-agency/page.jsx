@@ -1,19 +1,19 @@
 'use client'
 // import Card from "@/ui/Card";
-import Div from "../app/ui/Div";
-import FunFact2 from "../app/ui/FunFact/FunFact2";
-import MasonryGallery from "../app/ui/Gallery/MasonryGallery";
-import Hero2 from "../app/ui/Hero/Hero2";
-import PricingTableList from "../app/ui/PricingTable/PricingTableList";
-import SectionHeading from "../app/ui/SectionHeading";
-import PostSlider from "../app/ui/Slider/PostSlider";
-import TestimonialSlider from "../app/ui/Slider/TestimonialSlider";
-import Spacing from "../app/ui/Spacing";
+import Div from "../ui/Div";
+import FunFact2 from "../ui/FunFact/FunFact2";
+import MasonryGallery from "../ui/Gallery/MasonryGallery";
+import Hero2 from "../ui/Hero/Hero2";
+import PricingTableList from "../ui/PricingTable/PricingTableList";
+import SectionHeading from "../ui/SectionHeading";
+import PostSlider from "../ui/Slider/PostSlider";
+import TestimonialSlider from "../ui/Slider/TestimonialSlider";
+import Spacing from "../ui/Spacing";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 
 import aboutImg from '../../../public/images/about_img_5.jpeg'
-import Card from "../app/ui/Card";
+import Card from "../ui/Card";
 
 const heroData = [
   {

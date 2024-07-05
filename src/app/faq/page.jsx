@@ -1,10 +1,10 @@
 'use client'
-import Accordion from "../app/ui/Accordion";
-import Button from "../app/ui/Button";
-import Cta from "../app/ui/Cta";
-import Div from "../app/ui/Div";
-import PageHeading from "../app/ui/PageHeading";
-import Spacing from "../app/ui/Spacing";
+import Accordion from "../ui/Accordion";
+import Button from "../ui/Button";
+import Cta from "../ui/Cta";
+import Div from "../ui/Div";
+import PageHeading from "../ui/PageHeading";
+import Spacing from "../ui/Spacing";
 import { Icon } from "@iconify/react";
 
 export default function FaqPage() {

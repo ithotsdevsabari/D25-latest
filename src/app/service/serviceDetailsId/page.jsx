@@ -1,13 +1,13 @@
 'use client'
-import Accordion from "../app/ui/Accordion";
-import Button from "../app/ui/Button";
-import Cta from "../app/ui/Cta";
-import Div from "../app/ui/Div";
-import IconBox from "../app/ui/IconBox";
-import PageHeading from "../app/ui/PageHeading";
-import SectionHeading from "../app/ui/SectionHeading";
-import TestimonialSlider from "../app/ui/Slider/TestimonialSlider";
-import Spacing from "../app/ui/Spacing";
+import Accordion from "../../ui/Accordion";
+import Button from "../../ui/Button";
+import Cta from "../../ui/Cta";
+import Div from "../../ui/Div";
+import IconBox from "../../ui/IconBox";
+import PageHeading from "../../ui/PageHeading";
+import SectionHeading from "../../ui/SectionHeading";
+import TestimonialSlider from "../../ui/Slider/TestimonialSlider";
+import Spacing from "../../ui/Spacing";
 import Image from "next/image";
 import serviceImage from '../../../../public/images/service_img_1.jpeg'
 

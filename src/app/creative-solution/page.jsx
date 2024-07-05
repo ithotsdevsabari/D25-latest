@@ -1,16 +1,16 @@
 'use client'
 // import Card from "../app/ui/Card";
-import Cta from "../app/ui/Cta";
-import CtaStyle2 from "../app/ui/Cta/CtaStyle2";
-import Div from "../app/ui/Div";
-import Hero10 from "../app/ui/Hero/Hero10";
-import IconBox from "../app/ui/IconBox";
-import SectionHeading from "../app/ui/SectionHeading";
-import PortfolioSlider2 from "../app/ui/Slider/PortfolioSlider2";
-import PostSlider from "../app/ui/Slider/PostSlider";
-import TestimonialSliderStyle3 from "../app/ui/Slider/TestimonialSliderStyle3";
-import Spacing from "../app/ui/Spacing";
-import Card from "../app/ui/Card";
+import Cta from "../ui/Cta";
+import CtaStyle2 from "../ui/Cta/CtaStyle2";
+import Div from "../ui/Div";
+import Hero10 from "../ui/Hero/Hero10";
+import IconBox from "../ui/IconBox";
+import SectionHeading from "../ui/SectionHeading";
+import PortfolioSlider2 from "../ui/Slider/PortfolioSlider2";
+import PostSlider from "../ui/Slider/PostSlider";
+import TestimonialSliderStyle3 from "../ui/Slider/TestimonialSliderStyle3";
+import Spacing from "../ui/Spacing";
+import Card from "../ui/Card";
 
 
 export default function CreativeSolutionHome() {

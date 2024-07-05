@@ -1,17 +1,17 @@
 'use client'
-import Cta from "../app/ui/Cta";
-import Div from "../app/ui/Div";
-import FunFact2 from "../app/ui/FunFact/FunFact2";
-import Hero4 from "../app/ui/Hero/Hero4";
-import LogoList from "../app/ui/LogoList";
-import MovingText2 from "../app/ui/MovingText/MovingText2";
-import Portfolio from "../app/ui/Portfolio";
-import PostList from "../app/ui/Post/PostList";
-import SectionHeading from "../app/ui/SectionHeading";
-import TestimonialSlider from "../app/ui/Slider/TestimonialSlider";
-import TimelineSlider from "../app/ui/Slider/TimelineSlider";
-import Spacing from "../app/ui/Spacing";
-import VideoModal from "../app/ui/VideoModal";
+import Cta from "../ui/Cta";
+import Div from "../ui/Div";
+import FunFact2 from "../ui/FunFact/FunFact2";
+import Hero4 from "../ui/Hero/Hero4";
+import LogoList from "../ui/LogoList";
+import MovingText2 from "../ui/MovingText/MovingText2";
+import Portfolio from "../ui/Portfolio";
+import PostList from "../ui/Post/PostList";
+import SectionHeading from "../ui/SectionHeading";
+import TestimonialSlider from "../ui/Slider/TestimonialSlider";
+import TimelineSlider from "../ui/Slider/TimelineSlider";
+import Spacing from "../ui/Spacing";
+import VideoModal from "../ui/VideoModal";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 

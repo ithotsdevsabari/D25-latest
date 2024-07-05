@@ -1,10 +1,10 @@
 "use client";
-import Cta from "../app/ui/Cta";
-import Div from "../app/ui/Div";
-import PageHeading from "../app/ui/PageHeading";
-import SectionHeading from "../app/ui/SectionHeading";
-import Spacing from "../app/ui/Spacing";
-import Team from "../app/ui/Team";
+import Cta from "../ui/Cta";
+import Div from "../ui/Div";
+import PageHeading from "../ui/PageHeading";
+import SectionHeading from "../ui/SectionHeading";
+import Spacing from "../ui/Spacing";
+import Team from "../ui/Team";
 import { memberData } from "../../../utills/memberData";
 
 export default function TeamPage() {
