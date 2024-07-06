@@ -53,7 +53,7 @@ function TeamDetailsDesktop({ paramsId }) {
   return (
     <>
       <PageHeading title="Team" bgSrc="/images/team_hero_bg.jpeg" pageLinkText="Team" />
-      <Spacing lg="150" md="80" />
+      <Spacing lg="90" md="80" />
       <Div className="container">
         <SectionHeading title="Meet Our Crew" subtitle="Our Team" variant="cs-style1 text-center" />
         <Spacing lg="90" md="45" />

@@ -218,14 +218,14 @@ export default function Header({ variant }) {
                               Portfolio
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link
                               href="/portfolioDetailsId"
                               onClick={() => setMobileToggle(false)}
                             >
                               Portfolio Details
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </DropDown>
                     </li>

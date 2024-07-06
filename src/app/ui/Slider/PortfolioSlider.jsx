@@ -1,5 +1,5 @@
 import React from 'react';
-import Portfolio from '../Portfolio';
+import PortfolioWc from '../portFolioWithoutConditon';
 import Div from '../Div';
 import Slider from 'react-slick';
 
@@ -28,7 +28,7 @@ export default function PortfolioSlider({ data }) {
     <Slider {...settings} className="cs-slider cs-style3 cs-gap-24">
       {data.map((item, index) => (
         <Div key={index}>
-          <Portfolio
+          <PortfolioWc 
             title={item.title}
             subtitle={item.subtitle}
             href={item.href}

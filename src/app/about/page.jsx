@@ -11,6 +11,9 @@ import aboutImg from "../../../public/images/about_img_1.jpeg";
 import aboutImg2 from "../../../public/images/about_img_2.jpeg";
 import aboutImg3 from "../../../public/images/about_img_3.jpeg";
 import aboutImg4 from "../../../public/images/groupImage.jpg";
+import aboutuspic01 from "../../../public/images/aboutuspic01.jpg";
+import aboutuspic02 from "../../../public/images/aboutuspic02.jpg";
+import aboutuspic03 from "../../../public/images/aboutuspic03.jpg";
 
 const funfaceData = [
   {
@@ -75,15 +78,15 @@ export default function AboutPage() {
               </SectionHeading>
             </Div>
             <Div className="col-lg-5 offset-xl-1">
-              <Image src={aboutImg} alt="About" className="w-100 cs-radius_15" />
+              <Image src={aboutuspic01} alt="About" className="w-100 cs-radius_15" />
               <Spacing lg="25" md="25" />
             </Div>
-            <Div className="col-lg-7">
-              <Image src={aboutImg2} alt="About" className="w-100 cs-radius_15" />
+            <Div className="col-lg-7 mb-lg-0" style={{ height: "355px", marginBottom: "20px" }}>
+              <Image src={aboutuspic02} alt="About" className="w-100 h-100 cs-radius_15"/>
               <Spacing lg="25" md="25" />
             </Div>
             <Div className="col-lg-5">
-              <Image src={aboutImg3} alt="About" className="w-100 cs-radius_15" />
+              <Image src={aboutuspic03} alt="About" className="w-100 cs-radius_15" />
               <Spacing lg="25" md="25" />
             </Div>
           </Div>
@@ -107,7 +110,7 @@ export default function AboutPage() {
       <Div className="container">
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
-            <Div className="cs-image_layer cs-style1">
+            
               <Div className="cs-image_layer_in">
                 <Image
                   src={aboutImg4}
@@ -115,7 +118,7 @@ export default function AboutPage() {
                   className="w-100 cs-radius_15"
                 />
               </Div>
-            </Div>
+          
             <Spacing lg="0" md="40" />
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">

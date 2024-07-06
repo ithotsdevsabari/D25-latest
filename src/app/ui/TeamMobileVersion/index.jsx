@@ -6,13 +6,14 @@ import PageHeading from '../PageHeading';
 import Spacing from '../Spacing';
 import SectionHeading from '../SectionHeading';
 import Image from 'next/image';
-import { useParams } from 'next/navigation';
-import { useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
 
 export default function TeamDetailsMobile() {
   return (
     <>
+    <PageHeading title="Team" bgSrc="/images/team_hero_bg.jpeg" pageLinkText="Team" />
+    <Spacing lg="90" md="80" />
+    <Div className='container'>
+    <SectionHeading title="Meet Our Crew" subtitle="Our Team" variant="cs-style1 text-center" />
     <Div className="row align-items-center" id="1">
         <Div className="col-lg-6 ">
             <Spacing lg="0" md="45" />
@@ -350,6 +351,7 @@ export default function TeamDetailsMobile() {
               />
             </Div>
           </Div>
+        </Div>
         </Div>
         </>
   );

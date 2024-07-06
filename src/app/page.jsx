@@ -3,18 +3,11 @@ import Cta from '../app/ui/Cta';
 import Div from '../app/ui/Div';
 import FunFact from '../app/ui/FunFact';
 import Hero from '../app/ui/Hero';
-import LogoList from '../app/ui/LogoList';
-import MovingText from '../app/ui/MovingText';
 import SectionHeading from '../app/ui/SectionHeading';
 import PortfolioSlider from '../app/ui/Slider/PortfolioSlider';
-import PostSlider from '../app/ui/Slider/PostSlider';
 import TeamSlider from '../app/ui/Slider/TeamSlider';
-import TestimonialSlider from '../app/ui/Slider/TestimonialSlider';
-import TimelineSlider from '../app/ui/Slider/TimelineSlider';
 import Spacing from '../app/ui/Spacing';
-import VideoModal from '../app/ui/VideoModal';
-import Card from './ui/Card';
-import PartnerSlider from './ui/PartnerSlider';
+
 
 // Hero Social Links
 const heroSocialLinks = [
@@ -53,25 +46,19 @@ const portfolioData = [
     title: 'Praise Voice',
     subtitle: 'See Details',
     href: '/portfolio',
-    src: '/images/priceVoicelogo.png',
+    src: '/images/prise-voice.jpg',
   },
   {
     title: 'Cookery Show',
     subtitle: 'See Details',
     href: '/portfolio',
-    src: '/images/portfolio_3.jpeg',
+    src: '/images/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai.jpg',
   },
   {
     title: 'Award Function',
     subtitle: 'See Details',
     href: '/portfolio',
     src: '/images/pikaso_texttoimage_award-trophy-gold-glow-bright-orange-color-palette 1.jpg',
-  },
-  {
-    title: 'Israel Kondattam',
-    subtitle: 'See Details',
-    href: '/portfolio',
-    src: '/images/portfolio_0.jpg',
   },
   {
     title: 'Uru thiruvizha',
@@ -85,7 +72,6 @@ const portfolioData = [
     href: '/portfolio',
     src: '/images/pikaso_texttoimage_35mm-film-photography-movie-camera-with-question-m 1 1.jpg',
   },
-
 ];
 
 export default function Home() {
