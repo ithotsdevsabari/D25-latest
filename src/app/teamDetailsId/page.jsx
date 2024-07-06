@@ -392,7 +392,14 @@ function TeamDetailsDesktop({ paramsId }) {
 
       </Div>
       <Spacing lg="145" md="80" />
-      <Cta title="Let’s create something amazing together" />
+      <Div className="container">
+        <Cta
+          title="Let’s discuss make <br />something <i>cool</i> together"
+          btnText="Apply For Meeting"
+          btnLink="/contact"
+          bgSrc="/images/cta_bg.jpeg"
+        />
+      </Div>
     </>
   );
 }
