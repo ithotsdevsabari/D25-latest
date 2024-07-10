@@ -102,7 +102,7 @@
         memberId:8,
         memberImage: '/images/JOHN MERVIN.png',
         memberName: 'John Mervin',
-        memberDesignation: 'Associate content Writer',
+        memberDesignation: 'Associate Content Writer',
         memberSocial: {
           linkedin: '/',
           twitter: '/',

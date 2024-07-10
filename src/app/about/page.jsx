@@ -99,7 +99,7 @@ export default function AboutPage() {
       <Div className="container">
         <FunFact
           title="Praise voice"
-          subtitle="After five years of unwavering dedication, we are thrilled to announce the launch of 'PRAISE VOICE' – the ultimate gospel singing reality show! Get your voices ready, your spirits high, and prepare to embark on a transformative journey."
+          subtitle="After five years of dedication, we're excited to launch 'PRAISE VOICE' – a new gospel singing reality show. Get ready to join us on this inspiring journey!"
           data={funfaceData}
         />
       </Div>

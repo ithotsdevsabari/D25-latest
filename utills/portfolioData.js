@@ -24,7 +24,7 @@ export const portfolioData = [
     {
         id:"3",
       title: 'Uru thiruvizha',
-      subtitle: 'Coming Soon',
+      subtitle: 'Onboard. Waiting to take off',
       href:  `/portfolioDetailsId`,
       src: '/images/pikaso_texttoimage_photo-posted-to-myspace-in-2007-celebration-in-tam 1.jpg',
     },

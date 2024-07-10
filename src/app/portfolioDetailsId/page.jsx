@@ -27,7 +27,7 @@ const portfolioDetails = [
   },
   {
     id: "2",
-    title: " Ah..! Ahh..! Homemakers",
+    title: "ஆ ஆஹா Homemaker",
     subtitle: "Contest",
     description1:
       'This show explores the rich tapestry of cultural dishes and the heartfelt stories of the homemakers who create them. Set in the cozy, intimate spaces of apartment kitchens, it uncovers the origins of cherished recipes and delves into the emotions and experiences of those who find comfort and creativity in cooking.',

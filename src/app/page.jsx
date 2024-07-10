@@ -56,14 +56,14 @@ const portfolioData = [
   },
   {
     title: 'Award Function',
-    subtitle: 'See Details',
-    href: '/portfolio',
+    subtitle: 'coming soon',
+    href: '',
     src: '/images/pikaso_texttoimage_award-trophy-gold-glow-bright-orange-color-palette 1.jpg',
   },
   {
     title: 'Uru thiruvizha',
-    subtitle: 'See Details',
-    href: '/portfolio',
+    subtitle: 'Onboard. Waiting to take off ',
+    href: '',
     src: '/images/pikaso_texttoimage_photo-posted-to-myspace-in-2007-celebration-in-tam 1.jpg',
   },
   {
@@ -101,71 +101,7 @@ export default function Home() {
           data={funfaceData}
         />
       </div>
-      {/* End FunFact Section */}
-
-      {/* Start Service Section */}
-      {/* <Spacing lg="150" md="80" /> */}
-      {/* <Div id="service">
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
-                btnText="See All Services"
-                btnLink="/service"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-8">
-              <Div className="row">
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="UI/UX design"
-                    link="/service/service-details"
-                    src="/images/service_1.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="React.js Development"
-                    link="/service/service-details"
-                    src="/images/service_2.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="Digital Marketing"
-                    link="/service/service-details"
-                    src="/images/service_3.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="Technology"
-                    link="/service/service-details"
-                    src="/images/service_4.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-      </Div> */}
-      {/* End Service Section */}
-
+     
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="50" />
       <Div>
@@ -181,46 +117,6 @@ export default function Home() {
       </Div>
       {/* End Portfolio Section */}
 
-      {/* Start Awards Section */}
-      {/*<Spacing lg="150" md="80" />
-       <Div className="cs-shape_wrap_2">
-        <Div className="cs-shape_2">
-          <Div />
-        </Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="We get multiple awards"
-                subtitle="Our Awards"
-                variant="cs-style1"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <TimelineSlider />
-            </Div>
-          </Div>
-        </Div>
-      </Div> */}
-      {/* End Awards Section */}
-
-      {/* Start Video Block Section */}
-
-      {/* upcoming add this section  */}
-
-      {/* <Spacing lg="130" md="70" />
-      <Div className="container">
-        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-        Get ready to unleash your talent and reach new heights with us in this incredible Journey.
-        </h2>
-        <Spacing lg="70" md="70" />
-        <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
-        />
-      </Div> */}
-      {/* End Video Block Section */}
 
       {/* Start Team Section */}
       <Spacing lg="50" md="80" />
@@ -232,56 +128,9 @@ export default function Home() {
         <Spacing lg="30" md="45"/>
         <TeamSlider />
       </Div>
-      {/* <Spacing lg="150" md="80" /> */}
-      {/* End Team Section */}
-
-      {/* Start Testimonial Section */}
-
-      {/* upcoming add this */}
-
-      {/* <TestimonialSlider /> */}
-      {/* End Testimonial Section */}
-
-      {/* Start Blog Section */}
-      {/* <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_4">
-        <Div className="cs-shape_4"></Div>
-        <Div className="cs-shape_4"></Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Explore recent publication"
-                subtitle="Our Blog"
-                btnText="View More Blog"
-                btnLink="/blog"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <Div className="cs-half_of_full_width">
-                <PostSlider />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-      </Div> */}
-      {/* End Blog Section */}
-
-      {/* Start MovingText Section */}
-      {/* <Spacing lg="125" md="70" /> */}
-      {/* <PartnerSlider /> */}
+     
       <Spacing lg="105" md="70" />
-      {/* End MovingText Section */}
-
-      {/* Start LogoList Section */}
-      {/* <Div className="container">
-        <LogoList />
-      </Div> */}
-      {/* <Spacing lg="150" md="80" /> */}
-      {/* End LogoList Section */}
-
-      {/* Start CTA Section */}
+      
       <Div className="container">
         <Cta
           title="We are Hiring"
