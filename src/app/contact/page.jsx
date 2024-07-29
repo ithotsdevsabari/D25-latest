@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import Div from "../ui/Div";
 import PageHeading from "../ui/PageHeading";
@@ -17,7 +17,7 @@ export default function ContactPage() {
     mobile: '',
     message: '',
   });
-  const [responseMessage, setResponseMessage] = useState('');
+  const [responseMessage, setResponseMessage] = useState('ddddddddddddd');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,7 +26,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    setResponseMessage('Email sending');
     emailjs.sendForm('service_psf30kl', 'template_75gm8as', formRef.current, 'ybNgoPJNv9POIoBgF')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
@@ -35,7 +35,25 @@ export default function ContactPage() {
         console.error('FAILED...', err);
         setResponseMessage('Failed to send email.');
       });
+
+    setFormData({
+      name: '',
+      email: '',
+      project: '',
+      mobile: '',
+      message: '',
+    });
   };
+
+  useEffect(() => {
+    if (responseMessage) {
+      const timer = setTimeout(() => {
+        setResponseMessage('');
+      }, 5000); // Clear the message after 5 seconds
+
+      return () => clearTimeout(timer); // Cleanup the timer on component unmount
+    }
+  }, [responseMessage]);
 
   return (
     <>
@@ -99,7 +117,7 @@ export default function ContactPage() {
                 </button>
               </Div>
             </form>
-            {responseMessage && <p>{responseMessage}</p>}
+            {responseMessage && <p className="mt-5" >{responseMessage}</p>}
           </Div>
         </Div>
       </Div>

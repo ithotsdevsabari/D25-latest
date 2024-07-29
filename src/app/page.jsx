@@ -7,6 +7,7 @@ import SectionHeading from '../app/ui/SectionHeading';
 import PortfolioSlider from '../app/ui/Slider/PortfolioSlider';
 import TeamSlider from '../app/ui/Slider/TeamSlider';
 import Spacing from '../app/ui/Spacing';
+import WhatsAppButton from './ui/Whatsapp';
 
 
 // Hero Social Links
@@ -77,6 +78,7 @@ const portfolioData = [
 export default function Home() {
   return (
     <>
+    <WhatsAppButton/>
       {/* Start Hero Section */}
       <Hero
         title="Unearth the <br/>Unseen to Uplift"
