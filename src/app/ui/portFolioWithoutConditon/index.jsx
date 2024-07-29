@@ -4,7 +4,6 @@ import Div from '../Div';
 import './portfolio.scss';
 
 export default function PortfolioWc({ href, src, title, subtitle, variant }) {
-  console.log("href",title)
   return (
       <>
       { title === "Award Function" || title === "Uru thiruvizha" ? 

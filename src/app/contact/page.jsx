@@ -17,7 +17,7 @@ export default function ContactPage() {
     mobile: '',
     message: '',
   });
-  const [responseMessage, setResponseMessage] = useState('ddddddddddddd');
+  const [responseMessage, setResponseMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;

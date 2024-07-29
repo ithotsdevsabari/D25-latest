@@ -8,15 +8,6 @@ import { Icon } from "@iconify/react";
 import { useEffect } from "react";
 
 export default function HireForm() {
-  // useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     import("bootstrap/dist/js/bootstrap.bundle.min")
-  //       .then(() => {
-  //         // Initialize Bootstrap's dropdown
-  //       })
-  //       .catch((err) => console.log(err));
-  //   }
-  // }, []);
 
   return (
     <>

@@ -24,12 +24,10 @@ function TeamDetailsContent() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const searchParams = useSearchParams();
   const paramsId = searchParams?.get('data');
-  console.log(paramsId);
 
   useEffect(() => {
     if (paramsId) {
       const element = document.getElementById(paramsId);
-      console.log("hiiiiiii", element);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
@@ -43,7 +41,6 @@ function TeamDetailsDesktop({ paramsId }) {
   useEffect(() => {
     if (paramsId) {
       const element = document.getElementById(paramsId);
-      console.log("hiiiiiii", element);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
