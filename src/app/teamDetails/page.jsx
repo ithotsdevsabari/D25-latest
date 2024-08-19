@@ -11,10 +11,12 @@ import { useParams } from 'next/navigation';
 import { useSearchParams } from 'next/navigation';
 import TeamDetailsMobile from '../ui/TeamMobileVersion';
 import { useMediaQuery } from 'react-responsive';
+import WhatsAppButton from '../ui/Whatsapp';
 
 export default function TeamDetails() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
+      <WhatsAppButton/>
       <TeamDetailsContent />
     </Suspense>
   );

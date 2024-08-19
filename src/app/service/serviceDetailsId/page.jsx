@@ -158,7 +158,7 @@ channels for Audition.</p>
         <Cta 
           title='We are Hiring' 
           btnText='Apply For Meeting' 
-          btnLink="/case-study/caseStudyId"
+          btnLink="/hire/caseStudyId"
           bgSrc='/images/cta_bg.jpeg'
         />
       </Div>

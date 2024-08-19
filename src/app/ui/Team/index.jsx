@@ -14,7 +14,7 @@ export default function Team({memberImage, memberName, memberDesignation, member
           <Div className="cs-member_overlay" />
         </Div>
         <Div className="cs-member_info">
-          <h2 className="cs-member_name"><Link href={`/teamDetailsId?data=${memberId}`}>{memberName}</Link></h2>
+          <h2 className="cs-member_name"><Link href={`/teamDetails?data=${memberId}`}>{memberName}</Link></h2>
           <Div className="cs-member_designation">{memberDesignation}</Div>
         </Div>
 

@@ -114,13 +114,13 @@ export default function CreativePortfolioHome() {
       <CaseStudy
         title="Analysis lead <br /> more efficiently"
         bgUrl="/images/case_study_2.jpeg"
-        href="/case-study"
+        href="/hire"
         variant="cs-style2"
       />
       <CaseStudy
         title="Ubar food app <br /> case study"
         bgUrl="/images/case_study_1.jpeg"
-        href="/case-study"
+        href="/hire"
       />
       <Spacing lg="150" md="80" />
       {/* End Case Study Section */}
@@ -147,7 +147,7 @@ export default function CreativePortfolioHome() {
         <Cta
           title="We are Hiring"
           btnText="Apply now"
-          btnLink="/case-study/caseStudyId"
+          btnLink="/hire/caseStudyId"
           bgSrc="/images/cta_bg_3.jpeg"
         />
       </Div>

@@ -7,6 +7,7 @@ import SectionHeading from "../ui/SectionHeading";
 import Spacing from "../ui/Spacing";
 import ContactInfoWidget from "../ui/Widget/ContactInfoWidget";
 import { Icon } from "@iconify/react";
+import WhatsAppButton from '../ui/Whatsapp';
 
 export default function ContactPage() {
   const formRef = useRef();
@@ -57,6 +58,7 @@ export default function ContactPage() {
 
   return (
     <>
+    <WhatsAppButton/>
       <PageHeading
         title="Contact Us"
         bgSrc="/images/contact_hero_bg.jpeg"

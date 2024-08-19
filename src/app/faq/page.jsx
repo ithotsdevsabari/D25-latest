@@ -78,7 +78,7 @@ export default function FaqPage() {
         <Cta
           title="We are Hiring"
           btnText="Apply now"
-          btnLink="/case-study/caseStudyId"
+          btnLink="/hire/caseStudyId"
           bgSrc="/images/cta_bg.jpeg"
         />
       </Div>

@@ -85,24 +85,10 @@
         subpara : "The inception of D25 marks the realization of my long-held dreams and ambitions, where we can unleash our vision and flourish without boundaries. And I am thrilled to embark on this new journey with both passion and compassion, aspiring for growth together.",
       },
       {
-        memberId:7,
-        memberImage: '/images/Jenniffer Steffy.png',
-        memberName: 'Jeniffer Steffy',
-        memberDesignation: 'Content Writer',
-        memberSocial: {
-          linkedin: '/',
-          twitter: '/',
-          youtube: '/',
-          facebook: '/',
-        },
-        mainpara : "A content writer is a skilled professional adept at crafting engaging and informative text tailored to a variety of audiences. Their expertise spans across multiple formats, including blog posts, articles, website content, and social media updates. By conducting thorough research and understanding the nuances of target demographics, content writers create compelling narratives that not only inform but also captivate readers. ",
-        subpara : "Their work is crucial in establishing brand voice, driving web traffic, and fostering customer engagement.",
-      },
-      {
         memberId:8,
         memberImage: '/images/JOHN MERVIN.png',
         memberName: 'John Mervin',
-        memberDesignation: 'Associate Content Writer',
+        memberDesignation: 'Content Writer',
         memberSocial: {
           linkedin: '/',
           twitter: '/',

@@ -6,10 +6,12 @@ import SectionHeading from "../ui/SectionHeading";
 import Spacing from "../ui/Spacing";
 import Team from "../ui/Team";
 import { memberData } from "../../../utills/memberData";
+import WhatsAppButton from "../ui/Whatsapp";
 
 export default function TeamPage() {
   return (
     <>
+    <WhatsAppButton/>
       <PageHeading
         title="Our Team"
         bgSrc="/images/team_hero_bg.jpeg"
@@ -39,15 +41,6 @@ export default function TeamPage() {
             );
           })}
         </Div>
-        {/* <Spacing lg="70" md="50" /> */}
-        {/* <Div className="container">
-          <Cta
-            title="We are Hiring"
-            btnText="Apply now"
-            btnLink="/case-study/caseStudyId"
-            bgSrc="/images/cta_bg.jpeg" 
-          />
-        </Div> */}
       </Div>
     </>
   );

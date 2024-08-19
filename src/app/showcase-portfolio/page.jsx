@@ -16,22 +16,22 @@ const showcaseData = [
   {
     title: 'Think reality <br/>do positive',
     imgUrl: '/images/slider_1.jpeg',
-    href: '/case-study',
+    href: '/hire',
   },
   {
     title: 'Think reality <br/>do positive',
     imgUrl: '/images/slider_2.jpeg',
-    href: '/case-study',
+    href: '/hire',
   },
   {
     title: 'Think reality <br/>do positive',
     imgUrl: '/images/slider_3.jpeg',
-    href: '/case-study',
+    href: '/hire',
   },
   {
     title: 'Think reality <br/>do positive',
     imgUrl: '/images/slider_4.jpeg',
-    href: '/case-study',
+    href: '/hire',
   },
 ];
 

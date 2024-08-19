@@ -164,7 +164,7 @@ export default function MarketingAgencyHome() {
         <Cta
           title="We are Hiring"
           btnText="Apply now"
-          btnLink="/case-study/caseStudyId"
+          btnLink="/hire/caseStudyId"
           bgSrc="/images/cta_bg_3.jpeg"
         />
       </Div>

@@ -14,6 +14,7 @@ import aboutImg4 from "../../../public/images/groupImage.jpg";
 import aboutuspic01 from "../../../public/images/aboutuspic01.jpg";
 import aboutuspic02 from "../../../public/images/aboutuspic02.jpg";
 import aboutuspic03 from "../../../public/images/aboutuspic03.jpg";
+import WhatsAppButton from "../ui/Whatsapp";
 
 const funfaceData = [
   {
@@ -45,6 +46,7 @@ export default function AboutPage() {
 
   return (
     <>
+    <WhatsAppButton/>
       {/* Start Page Heading Section */}
       <PageHeading
         title="About Us"
@@ -162,7 +164,7 @@ export default function AboutPage() {
         <Cta
           title="We are Hiring"
           btnText="Apply now"
-          btnLink="/case-study/caseStudyId"
+          btnLink="/hire/caseStudyId"
           bgSrc="/images/cta_bg.jpeg"
         />
       </Div> */}

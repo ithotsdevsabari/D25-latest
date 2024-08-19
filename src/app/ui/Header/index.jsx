@@ -130,7 +130,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/case-study-showcase"
+                              href="/hire-showcase"
                               onClick={() => setMobileToggle(false)}
                             >
                               Case Study Showcase
@@ -250,7 +250,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/teamDetailsId"
+                              href="/teamDetails"
                               onClick={() => setMobileToggle(false)}
                             >
                               Team
@@ -266,7 +266,7 @@ export default function Header({ variant }) {
                           </li> */}
                           <li>
                             <Link
-                              href="/case-study"
+                              href="/hire"
                               onClick={() => setMobileToggle(false)}
                             >
                               Hire

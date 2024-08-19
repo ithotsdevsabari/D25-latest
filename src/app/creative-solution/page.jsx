@@ -216,7 +216,7 @@ export default function CreativeSolutionHome() {
       <Cta
         title="We are Hiring"
         btnText="Apply now"
-        btnLink="/case-study/caseStudyId"
+        btnLink="/hire/caseStudyId"
         bgSrc="/images/cta_bg_5.jpeg"
         variant="cs-type_1"
       />

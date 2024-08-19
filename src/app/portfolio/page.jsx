@@ -8,6 +8,7 @@ import SectionHeading from "../ui/SectionHeading";
 import Spacing from "../ui/Spacing";
 import { Icon } from "@iconify/react";
 import { portfolioData } from "../../../utills/portfolioData";
+import WhatsAppButton from "../ui/Whatsapp";
 
 
 const categoryMenu = [
@@ -42,6 +43,7 @@ export default function PortfolioPage() {
 
   return (
     <>
+    <WhatsAppButton/>
       <PageHeading
         title="Portfolio"
         bgSrc="/images/portfolio_hero_bg.jpeg"
