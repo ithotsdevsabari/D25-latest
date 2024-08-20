@@ -304,15 +304,15 @@ function TeamDetailsDesktop({ paramsId }) {
           </Div>
         </Div>
 
-         {/* member 7 */}
-         <Spacing lg="100" md="80" />
-        <Div className="row align-items-center" id="7">
-         
 
-          <Div className="col-xl-5 col-lg-6 ">
+          {/* member 8 */}
+          <Spacing lg="100" md="80" />
+        <Div className="row align-items-center" id="8">
+          
+        <Div className="col-xl-5 col-lg-6 ">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image
-                src="/images/Jenniffer Steffy.png"
+                src="/images/JOHN MERVIN.png"
                 alt="Member"
                 className="w-100"
                 // placeholder="blur"
@@ -321,42 +321,13 @@ function TeamDetailsDesktop({ paramsId }) {
               />
             </Div>
           </Div>
+
           <Div className="col-lg-6 offset-xl-1">
-            <Spacing lg="0" md="45" />
-            <Div className="cs-section_heading cs-style1">
-              <h2 className="cs-section_title head_new_col">Jeniffer Steffy</h2>
-              <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Content Writer</h3>
-              <Div className="cs-height_5 cs-height_lg_5" />
-              <Div className="cs-separator cs-accent_bg" />
-              <Div className="cs-height_45 cs-height_lg_25" />
-              <p className="cs-m0">
-              My journey into the world of content writing began as a gradual discovery, fueled by curiosity and a deep love for storytelling. What started as a casual interest soon transformed into a passion as I witnessed firsthand the power of words to inspire, inform, and entertain.
-              </p>
-              <Div className="cs-height_25 cs-height_lg_20" />
-              <p className="cs-m0">
-              Joining D25 Entertainment marked a pivotal moment in my career. Here, I immersed myself in the art of content creation, diving deep into learning and refining my skills. Collaborating with a diverse and talented team at D25 has been incredibly enriching, allowing me to gain valuable insights and grow both professionally and personally. At D25, I've learned that great ideas can come from anyone, regardless of their background or experience.
-              </p>
-
-                {/* Social media added in future */}
-
-              {/* <Div className="cs-height_45 cs-height_lg_30" /> */}
-              {/* <SocialWidget /> */}
-            </Div>
-          </Div>
-        </Div>
-
-
-          {/* member 8 */}
-          <Spacing lg="100" md="80" />
-        <Div className="row align-items-center" id="8">
-          
-          <Div className="col-lg-6 ">
             <Spacing lg="0" md="45" />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title head_new_col">John Mervin</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Associate Content Writer</h3>
+              <h3 className="cs-section_subtitle">Content Writer</h3>
               <Div className="cs-height_5 cs-height_lg_5" />
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
@@ -374,18 +345,7 @@ function TeamDetailsDesktop({ paramsId }) {
               {/* <SocialWidget /> */}
             </Div>
           </Div>
-          <Div className="col-xl-5 col-lg-6 offset-xl-1">
-            <Div className="cs-radius_15 cs-shine_hover_1">
-              <Image
-                src="/images/JOHN MERVIN.png"
-                alt="Member"
-                className="w-100"
-                // placeholder="blur"
-                width= "400"
-                height="700"
-              />
-            </Div>
-          </Div>
+         
         </Div>
         </div>  
 
