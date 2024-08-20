@@ -61,12 +61,17 @@ export default function HireForm() {
       })
       .catch((error) => {
         setStatusMessage('Failed to send email. Please try again.');
+      })
+      .finally(() => {
+        setTimeout(() => {
+          setStatusMessage('');
+        }, 5000); // Clear status message after 5 seconds
       });
   };
 
   return (
     <>
-    <WhatsAppButton/>
+      <WhatsAppButton />
       <Div className="container">
         <Div className="row">
           <Div className="col-lg-6">
@@ -82,22 +87,22 @@ export default function HireForm() {
             <form onSubmit={handleSubmit} className="row">
               <Div className="col-sm-6">
                 <label htmlFor="fullName" className="cs-primary_color">Full Name <span className="text-danger">*</span></label>
-                <input type="text" id="fullName" className="cs-form_field" value={formData.fullName} onChange={handleInputChange} />
+                <input type="text" id="fullName" className="cs-form_field" value={formData.fullName} onChange={handleInputChange} required/>
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
                 <label htmlFor="email" className="cs-primary_color">Email <span className="text-danger">*</span></label>
-                <input type="email" id="email" className="cs-form_field" value={formData.email} onChange={handleInputChange} />
+                <input type="email" id="email" className="cs-form_field" value={formData.email} onChange={handleInputChange} required/>
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
                 <label htmlFor="mobile" className="cs-primary_color">Mobile <span className="text-danger">*</span></label>
-                <input type="text" id="mobile" className="cs-form_field" value={formData.mobile} onChange={handleInputChange} />
+                <input type="text" id="mobile" className="cs-form_field" value={formData.mobile} onChange={handleInputChange} required/>
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
                 <label htmlFor="position" className="cs-primary_color">Open Positions <span className="text-danger">*</span></label>
-                <select id="position" className="cs-form_fields" aria-label="Open Positions" value={formData.position} onChange={handleInputChange}>
+                <select id="position" className="cs-form_fields" aria-label="Open Positions" value={formData.position} onChange={handleInputChange} required>
                   <optgroup label="Media Production & entertainments">
                     <option value="graphic-designers">Graphic Designers</option>
                     <option value="show-producer">Show Producer - Events & Promotions</option>
@@ -142,12 +147,12 @@ export default function HireForm() {
               </Div>
               <Div className="col-sm-6">
                 <label htmlFor="upload" className="cs-primary_color">File Upload <span className="text-danger">*</span></label>
-                <input type="file" id="upload" className="cs-form_field" onChange={handleInputChange} />
+                <input type="file" id="upload" className="cs-form_field" onChange={handleInputChange} required/>
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-12">
                 <label htmlFor="message" className="cs-primary_color">Message <span className="text-danger">*</span></label>
-                <textarea id="message" cols="30" rows="7" className="cs-form_field" value={formData.message} onChange={handleInputChange}></textarea>
+                <textarea id="message" cols="30" rows="7" className="cs-form_field" value={formData.message} onChange={handleInputChange} required></textarea>
                 <Spacing lg="25" md="25" />
               </Div>
               <Div className="col-sm-12">
@@ -155,7 +160,7 @@ export default function HireForm() {
                   <span>Submit</span>
                   <Icon icon="bi:arrow-right" />
                 </button>
-                {statusMessage && <p>{statusMessage}</p>}
+                {statusMessage && <p className="mt-2">{statusMessage}</p>}
               </Div>
             </form>
           </Div>
